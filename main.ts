@@ -1,0 +1,20 @@
+input.onButtonPressed(Button.A, function () {
+    basic.showIcon(IconNames.Happy)
+    basic.pause(500)
+    basic.clearScreen()
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showIcon(IconNames.Sad)
+    basic.pause(500)
+    basic.clearScreen()
+})
+basic.showString("HOLA")
+basic.clearScreen()
+basic.forever(function () {
+    basic.showIcon(IconNames.Heart)
+    basic.pause(500)
+    basic.clearScreen()
+    basic.showIcon(IconNames.SmallHeart)
+    basic.pause(500)
+    basic.clearScreen()
+})
